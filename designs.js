@@ -19,6 +19,8 @@ sizePicker.addEventListener('click', function(event){
 // When size is submitted by the user, call makeGrid()
 function makeGrid(height, width) {
 	console.log(height.value, width.value);
+	let row = table.insertRow(0);
+	let cell = row.insertCell(0);
 
 // Your code goes here!
 
