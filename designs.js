@@ -9,14 +9,16 @@ let table = document.getElementById('pixelCanvas');
 
 sizePicker.addEventListener('click', function(event){
 	event.preventDefault();
-	console.log(event + sizePicker.value);
+	makeGrid(height, width);
+	// console.log(event + sizePicker.value);
 	// console.log(e + "test");
-	console.log(height.value, width.value);
-	console.log(colorPicker.value);
+	// console.log(height.value, width.value);
+	// console.log(colorPicker.value);
 });
 
 // When size is submitted by the user, call makeGrid()
-function makeGrid() {
+function makeGrid(height, width) {
+	console.log(height.value, width.value);
 
 // Your code goes here!
 
