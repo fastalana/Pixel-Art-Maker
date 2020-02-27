@@ -7,6 +7,8 @@ let height = document.getElementById('inputHeight');
 let width = document.getElementById('inputWidth');
 let table = document.getElementById('pixelCanvas');
 
+makeGrid(height, width); //sets a default grid of 1x1
+
 sizePicker.addEventListener('click', function(event){
 	event.preventDefault();
 	makeGrid(height, width);
