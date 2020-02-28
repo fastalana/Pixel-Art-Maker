@@ -9,9 +9,11 @@ let table = document.getElementById('pixelCanvas');
 
 makeGrid(height, width); //sets a default grid of 1x1
 
-sizePicker.addEventListener('click', function(event){
+
+//creates the grid when the user clicks on submit
+document.querySelector('form').addEventListener('submit', function(event){ 
 	event.preventDefault();
-	table.firstChild.remove(); //removes the initial grid
+	table.firstChild.remove(); //removes the initial default grid
 	makeGrid(height, width);
 });
 
@@ -21,6 +23,8 @@ function makeGrid(height, width) {
 		let row = table.insertRow(x);
 		for(let y = 0; y < width.value; y++){
 			let cell = row.insertCell(y);
+			// TODO - Figure out how to get this out of a for loop... There might be
+			//something from the lecture
 			cell.addEventListener('click', function(event){
 				console.log(event);
 				cell.style.backgroundColor = colorPicker.value;
@@ -28,3 +32,5 @@ function makeGrid(height, width) {
 		}
 	}
 }
+
+
