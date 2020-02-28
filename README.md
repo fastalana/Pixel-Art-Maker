@@ -1,5 +1,4 @@
 # PixelArtMaker
-Create a single page app in Javascript where a user can create artistic designs.
 
 # How to Use the App
 1. Set the canvas size using the width and height input boxes. When you have selected your desired dimensions, click "submit".
