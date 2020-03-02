@@ -16,6 +16,7 @@ This project was built for the Udacity Introduction to Prorgaming Nanodegree. Th
 
 ## Useful Links
 **Udacity Information**
+
 This code was a project for the Introduction to Progaming Nanodegree.  Resource links are listed below:
 
 * [Introduction to Programming](https://www.udacity.com/course/intro-to-programming-nanodegree--nd000)
