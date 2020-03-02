@@ -1,7 +1,4 @@
-
-
 // Select size input
-let sizePicker = document.getElementById('sizePicker');
 let height = document.getElementById('inputHeight');
 let width = document.getElementById('inputWidth');
 let table = document.getElementById('pixelCanvas');
