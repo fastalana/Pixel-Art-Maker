@@ -1,5 +1,4 @@
-// Select color input
-let colorPicker = document.getElementById('colorPicker');
+
 
 // Select size input
 let sizePicker = document.getElementById('sizePicker');
@@ -19,6 +18,8 @@ document.querySelector('form').addEventListener('submit', function(event){
 
 // When size is submitted by the user, call makeGrid()
 function makeGrid(height, width) {
+	// Select color input
+	let colorPicker = document.getElementById('colorPicker');
 	for(let x = 0; x < height.value; x++){
 		let row = table.insertRow(x);
 		for(let y = 0; y < width.value; y++){
