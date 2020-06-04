@@ -1,7 +1,7 @@
 # PixelArtMaker
 This project was built for the Udacity Introduction to Prorgaming Nanodegree. This project demonstrates an understanding of JavaScript event listeners.  
 
-_Deployed on GitHub Pages:_ https://fastalana.github.io/PixelArtMaker/
+_Deployed on GitHub Pages:_ https://fastalana.github.io/Pixel-Art-Maker/
 ![Sample image the PixelArtMaker output](mario.png)
 
 ## How to Use the App
